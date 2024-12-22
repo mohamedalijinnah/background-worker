@@ -44,7 +44,7 @@ public class Program
                         .ForJob(jobKey)
                         .StartNow()
                         .WithSimpleSchedule(x => x
-                            .WithInterval(TimeSpan.FromHours(1))
+                            .WithInterval(TimeSpan.FromHours(24))
                             .RepeatForever())
                     );
                 });
