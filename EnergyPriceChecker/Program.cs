@@ -1,6 +1,4 @@
 using EnergyPriceChecker.Data;
-using EnergyPriceChecker.Jobs.Abstract;
-using EnergyPriceChecker.Jobs.Implementation;
 using EnergyPriceChecker.Service;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
